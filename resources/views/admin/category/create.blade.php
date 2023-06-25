@@ -18,7 +18,10 @@
 				<section class="content">
 					<!-- Default box -->
 					<div class="container-fluid">
-                            <form action="" method="post" id="CategoryForm">
+                            <form action="" method="post" id="CategoryForm" name="CategoryForm">
+							@csrf 
+
+						@method(‘PUT’)
 						<div class="card">
 							<div class="card-body">								
 								<div class="row">
@@ -31,7 +34,7 @@
 									</div>
 									<div class="col-md-6">
 										<div class="mb-3">
-											<label for="email">Slug</label>
+											<label for="slug">Slug</label>
 											<input type="text" name="slug" id="slug" class="form-control" placeholder="Slug">	
                                             <p></p>
 
@@ -65,9 +68,9 @@
 $("#categoryForm").submit(function(event){
     event.preventDefault();
     var element = $(this);
-    $ajax({
+  		  $.ajax({
         url:'{{ route("categories.store") }}',
-        type:'put',
+        type:'post',
         data: element.serializeArray(),
         dataType: 'json',
         success:function(response){
@@ -92,7 +95,7 @@ $("#categoryForm").submit(function(event){
                 .siblings('p')
                 .removeClass('invalid-feedback').html(errors['']);
             }
-        },error: function(jqXHR,exeption){
+        }, error: function(jqXHR,exeption){
             console.log("Something went wrong");
         }
     })
