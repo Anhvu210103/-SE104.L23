@@ -20,8 +20,6 @@
 					<div class="container-fluid">
                             <form action="" method="post" id="CategoryForm" name="CategoryForm">
 							@csrf 
-
-						@method(‘PUT’)
 						<div class="card">
 							<div class="card-body">								
 								<div class="row">
