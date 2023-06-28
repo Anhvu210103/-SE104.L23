@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\AdminLoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\HomeController;
+use App\Http\Controllers\admin\SubCategoryController;
 
 
 /*
@@ -34,6 +35,10 @@ Route::group(['prefix' => 'admin'],function(){
     Route::group(['middleware' => 'admin.auth'],function(){
         Route::get('/dashboard',[HomeController::class, 'index'])->name('admin.dashboard');
         Route::get('/logout',[HomeController::class, 'logout'])->name('admin.logout');
+
+
+        // Sub Category Routes
+        Route::get('/sub-category/create',[SubCategoryController::class,'create'])->name('sub-category.create');
         
     });
 
