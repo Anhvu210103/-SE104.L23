@@ -38,8 +38,9 @@ Route::group(['prefix' => 'admin'],function(){
 
 
         // Sub Category Routes
+        Route::get('/sub-category',[SubCategoryController::class, 'index'])->name('sub-categories.index');
         Route::get('/sub-category/create',[SubCategoryController::class,'create'])->name('sub-category.create');
-        
+        Route::post('/sub-category',[SubCategoryController::class,'store'])->name('sub-category.store');
     });
 
 });
