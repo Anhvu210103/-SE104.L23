@@ -1,1 +1,0 @@
-copy tu category list
