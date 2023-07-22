@@ -1,0 +1,290 @@
+@media (min-width: 1230px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media (max-width: 1199px) {
+    body {
+        font-size: 12px;
+    }
+    .logo {
+        padding: 50px 0;
+    }
+    .support-client h2 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .support-client .box-container:before {
+        font-size: 22px;
+        height: 30px;
+        width: 40px;
+        line-height: 30px;
+    }
+    .support-client .box-container .box-inner {
+        margin-left: 50px;
+    }
+    .form-search input.input-text {
+        width: 315px;
+    }
+    .top-cart-title .price {
+        font-size: 18px;
+    }
+    .menu > li > a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mega-menu-category > .nav > li > a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .catlist .name-cat h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .subscribe {
+        margin: 3px 0;
+    }
+    .subscribe:before {
+        height: 30px;
+        line-height: 27px;
+        font-size: 20px;
+        width: 45px;
+    }
+    .subscribe-inner {
+        font-size: 11px;
+        margin-left: 55px;
+    }
+    .subscribe-inner h3 {
+        font-size: 16px;
+    }
+    .form-subscribe .form-control {
+        min-width: 250px;
+    }
+    .footer-top .social {
+        margin: 5px 0;
+    }
+    .footer-top .social li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-top .social li a:before {
+        font-size: 16px;
+    }
+    .banner-left .banner-box1 .text h1 {
+        font-size: 25px;
+    }
+    .banner-left .banner-box1 .text h2 {
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .banner-left .banner-box1 .text p {
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .timer-grid .box-time-date span {
+        margin-top: 3px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .timer-grid .box-time-date {
+        min-width: 40px;
+        min-height: 40px;
+        margin-right: 2px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .banner-left .banner-box1 .text h1 {
+        font-size: 20px;
+    }
+    .banner-left .banner-box1 .text h2 {
+        font-size: 34px;
+        line-height: 25px;
+    }
+    .banner-left .banner-box1 .text p {
+        letter-spacing: 2px;
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        text-align: center;
+    }
+    .topbar-left,
+    .topbar-right {
+        float: none;
+    }
+    .topbar-nav {
+        display: inline-block;
+        background-color: #fff;
+    }
+    .topbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .topbar-nav > li > a,
+    .topbar-nav > li > span,
+    .topbar-nav > li:last-child {
+        border: 0;
+    }
+    .logo {
+        padding: 25px 0;
+        border: 0;
+    }
+    .support-client {
+        margin-top: 0;
+    }
+    .header-bottom {
+        border-bottom: 0;
+    }
+    .banner-left .banner-content {
+        margin-top: -40px;
+    }
+    .banner-left .banner-content h1 {
+        font-size: 20px;
+    }
+    .banner-left .banner-content h2 {
+        font-size: 23px;
+    }
+    .banner-left .banner-content p {
+        margin: 10px 0;
+    }
+    .banner-double {
+        margin-bottom: 14px;
+    }
+    .panel-products-container .owl-carousel .owl-wrapper-outer:before {
+        display: none;
+    }
+    .owl-theme .owl-controls.clickable .owl-buttons div,
+    .owl-theme .owl-controls .owl-buttons:before {
+        display: none;
+    }
+    .title-group h2,
+    .title-group1 h2,
+    #producttabs li h3 a {
+        font-size: 18px;
+    }
+    .timely {
+        padding: 10px;
+    }
+    .timer-grid .box-time-date {
+        min-width: 40px;
+        min-height: 40px;
+    }
+    .timer-grid .box-time-date span {
+        font-size: 12px;
+    }
+    .footer-middle .footer-content .contact-link a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .block-layered-nav #search_pr input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .block-layered-nav #search_pr input + input {
+        margin-left: 0;
+    }
+    .block-layered-nav #search_pr .btn {
+        width: 100%;
+        display: block;
+    }
+    .tab-custom li > a {
+        font-size: 14px;
+    }
+    .product-shop .btn {
+        margin-bottom: 10px;
+    }
+    .page-not-found .form-search input.input-text {
+        width: 400px;
+    }
+}
+@media (max-width: 767px) {
+    .support-client .box-container {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .form-search,
+    .mini-cart {
+        float: none;
+        display: inline-block;
+    }
+    .ads img,
+    .banner a img,
+    .images-container img {
+        width: 100%;
+    }
+    .banner-double {
+        margin-bottom: 30px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-nav > li > a {
+        text-align: left;
+    }
+    .navbar .dropdown-menu > li > a {
+        color: #fff;
+        border-bottom: 0;
+    }
+    .navbar .dropdown-menu > li > a:hover,
+    .navbar .dropdown-menu > li > a:focus {
+        color: #000;
+    }
+    .list-cat,
+    .footer-middle .footer-content {
+        margin-bottom: 30px;
+    }
+    .footer-bottom,
+    .payment {
+        text-align: center;
+    }
+    .footer-top .social {
+        float: none;
+        display: block;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .footer-top .social li {
+        display: inline-block;
+        float: none;
+    }
+    #producttabs li h3 a {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .page-not-found .page-content .title-note h1 {
+        font-size: 18px;
+    }
+    .page-not-found .form-search input.input-text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .page-not-found .form-search .btn {
+        width: 100%;
+    }
+    .blog-list .images-container {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 540px) {
+    .form-search input.input-text {
+        width: 200px;
+    }
+    .header-bottom .dropdown-menu {
+        z-index: 1001;
+    }
+    .form-subscribe .btn {
+        display: block;
+        width: 100%;
+    }
+    .col-smc-7,
+    .col-smc-5 {
+        width: 100%;
+        float: none;
+    }
+    .form-search .dropdown {
+        display: none;
+    }
+}
